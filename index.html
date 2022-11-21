@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KenKizii</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div class="lack">
+
+		<p lang="en">
+			
+			KenKizii
+
+		</p>
+
+	</div>
+
+
+
+	<div class="container">
+		
+		<button class="button" onclick="tg()">
+			телеграм
+		</button>
+		<br>
+		<button class="button" onclick="ds()">
+			дискорд
+		</button>
+		<br>
+		<button class="button" onclick="youtube()">
+			ютуб
+		</button>
+		<br>
+		<button class="button">
+			
+		</button>
+	</div>
+	
+	<div id="1" class="txt1">
+		<p>
+		Хорошего дня!
+		</p>
+	</div>
+
+
+	<script>
+		function tg (){
+			const list = document.getElementById("1");
+			list.innerHTML = '@kenkizii'
+			
+		}
+		function ds (){
+			const list = document.getElementById("1");
+			list.innerHTML = 'Kidnapper John#1224'
+		}
+		function youtube (){
+			const list = document.getElementById("1");
+			list.innerHTML = 'В бане, нарезок не будет.'
+		}
+	</script>
+</body>
+</html>
